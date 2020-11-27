@@ -60,8 +60,12 @@ docker start <container_id>
 ```sh
 docker rm <container_id>
 ```
+12. Remove an image
 
-12. login to a docker container
+```sh
+docker rmi -f <image>
+```
+13. login to a docker container
 ```sh
 docker exec -it <container_Name> /bin/bash
 ```
